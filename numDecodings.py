@@ -15,3 +15,8 @@ class Solution:
                 dp[i] += dp[i + 2]
         return dp[0]
 
+if __name__ == "__main__":
+    sol = Solution()
+    matrix = "12"
+    print("Output is : ", sol.numDecodings(matrix))
+

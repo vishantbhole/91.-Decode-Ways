@@ -20,3 +20,6 @@ if __name__ == "__main__":
     matrix = "12"
     print("Output is : ", sol.numDecodings(matrix))
 
+    matrix2 = "226"
+    print("Output is : ", sol.numDecodings(matrix2))
+
